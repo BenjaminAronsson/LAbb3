@@ -1,0 +1,31 @@
+﻿<Properties StartupConfiguration="{24DAE10A-970D-4AEC-8A4E-D2CA27EE7086}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Labb3/App.xaml">
+    <Files>
+      <File FileName="Labb3/MainPage.xaml" Line="54" Column="36" />
+      <File FileName="Labb3/MainPage.xaml.cs" Line="40" Column="50" />
+      <File FileName="Labb3/App.xaml.cs" Line="1" Column="1" />
+      <File FileName="Labb3/App.xaml" Line="7" Column="50" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Labb3" expanded="True">
+            <Node name="Labb3" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="App.xaml" expanded="True" selected="True" />
+              <Node name="MainPage.xaml" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Labb3.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.6187064A-F129-4A02-82B8-B81D27258495" />
+  <MonoDevelop.Ide.ItemProperties.Labb3.Android AndroidDesignerPreferredTheme="Theme.AppCompat.Light.NoActionBar" PreferredExecutionTarget="Android.Pixel_2_API_28" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

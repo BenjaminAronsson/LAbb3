@@ -35,17 +35,14 @@ namespace Labb3
 
         public void MakeCalculation(double price, double moms)
         {
-            double i = 100 - moms;
-            double priceValue = i * price / 100;
+            double formula = 1 / (moms / 100 + 1); 
+            double priceValue = formula * price;
             double momsValue = price - priceValue;
 
-            inputMomsLabel.Text = moms.ToString() + " %";
-            inputPriceLabel.Text = price.ToString() + " Sek";
-            outputMomsLabel.Text = momsValue.ToString() + " Sek";
-            outPutPriceLabel.Text = priceValue.ToString() + " Sek";
-
-            //Reset
-            inputField.Text = "";
+            inputMomsLabel.Text = moms.ToString("0.00") + " %";
+            inputPriceLabel.Text = price.ToString("0.00") + " Sek";
+            outputMomsLabel.Text = momsValue.ToString("0.00") + " Sek";
+            outPutPriceLabel.Text = priceValue.ToString("0.00") + " Sek";
         }
     }
 }
